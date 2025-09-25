@@ -9,6 +9,7 @@ CoLaSplat implements our core algorithm for compressed scene representation and 
 Download this repository and initialize submodules:
 
 ```bash
+cd CoLaSplat
 git submodule update --init --recursive
 ```
 
