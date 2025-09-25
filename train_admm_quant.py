@@ -22,7 +22,7 @@ from tqdm import tqdm
 from utils.image_utils import psnr
 from argparse import ArgumentParser, Namespace
 from arguments_admm_quant import ModelParams, PipelineParams, OptimizationParams
-from admm import ADMM, get_pruning_mask, check_grad_leakage
+from admm import ADMM, get_pruning_mask
 from datetime import datetime
 from logger import get_logger
 from quant import *
